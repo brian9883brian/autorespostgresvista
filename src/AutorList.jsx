@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const BASE_URL = 'http://autoreslibroautores.somee.com';
+const BASE_URL = 'https://www.autoreslibroautores.somee.com/api/Autor';
 
 const AutorList = () => {
   const [autores, setAutores] = useState([]);

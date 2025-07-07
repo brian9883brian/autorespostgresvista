@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     '/api',
     createProxyMiddleware({
-      target: 'http://autoreslibroautores.somee.com',
+      target: 'https://www.autoreslibroautores.somee.com/api/Autor',
       changeOrigin: true
     })
   );
