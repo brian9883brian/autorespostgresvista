@@ -25,7 +25,7 @@
       "react-app/jest"
     ]
   },
-"proxy": "https://www.autoreslibroautores.somee.com/api/Autor",
+"proxy": "https://www.autoreslibroautores.somee.com",
   "browserslist": {
     "production": [
       ">0.2%",
